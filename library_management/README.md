@@ -93,7 +93,7 @@ C:\path\to\the\project> java -cp ../ library_management/Library.java
 ```
 
 You should have this output: <br>
-![Menu display](.\images_for_readme\menu_display.png)
+![Menu display](images_for_readme/menu_display.png)
 
 <br>
 <br>
@@ -110,7 +110,7 @@ If you want to check if the book is really added, when the menu shows again ente
 
 ### Get the list of available books
 To **get the list of available books**, you must enter the letter **B** at the option input. You should have this output (depending of how many books available there is):
-![Available books displayed](.\images_for_readme\available_books_displayed.png)
+![Available books displayed](images_for_readme/available_books_displayed.png)
 
 <br>
 <br>
@@ -120,7 +120,7 @@ To **get the list of available books**, you must enter the letter **B** at the o
 > On the contrary, the value **false** means that the book is not available (it can not be borrowed).  
 
 To say that a book is borrowed, we set the availability of the book to false. Caution, this information must be true before this action ! To update the book availability to false, you must enter the letter **C** at the option input and then all its information (id, title, ...). When doing that, there is a mini explanation to set the boolean value depending what action you wanna do. <br>
-![Entering book information](.\images_for_readme\entering_book_information.png) <br>
+![Entering book information](images_for_readme/entering_book_information.png) <br>
 If you want to check if the book is really borrowed, when the menu shows again enter the letter **F**.
 
 <br>
@@ -139,7 +139,7 @@ To say that a book is returned, we set the availability of the book to true. Cau
 > As I said in the project description, we can search a book by its title or its author or its ISBN or its year.
 
 First, you must enter the letter **E** to access the menu to select by which information of the book we wanna do the research. You should have this output after entering the letter:
-![Menu search display](.\images_for_readme\menu_search_display.png)
+![Menu search display](images_for_readme/menu_search_display.png)
 
 * Option **A** -> search a book by its **title**:
     - After entering the letter A at the option input, you must write the title of the book you wanna search. If it is found, the output shows the book with all its information, otherwise a message saying "*There is no book(s) corresponding to that title.*" is displayed.
@@ -151,7 +151,7 @@ First, you must enter the letter **E** to access the menu to select by which inf
     - After entering the letter D at the option input, you must write the year of the book (or books) you wanna search. If it is found, the output shows the book with all its information, otherwise a message saying "*There is no book(s) corresponding to that year.*" is displayed.
 * Option **E** -> return to the main menu:
     - After entering the letter E at the option input, you redirected to the main menu:
-    ![Redirection to the main menu](.\images_for_readme\redirecting_to_main_menu.png)
+    ![Redirection to the main menu](images_for_readme/redirecting_to_main_menu.png)
 
 <br>
 <br>
