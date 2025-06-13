@@ -101,7 +101,7 @@ You should have this output: <br>
 
 ## How to use the project ?
 ### Add a book to the library
-To **add a book**, you must enter the letter **A** at the option input. Then you have to enter the information of the book you wanna add. Be careful of the type of data you enter ! (refer to [this section](#description-in-depth) for more information). After you have entered the book's information, you should have a message saying "*Book added !*".
+To **add a book**, you must enter the letter **A** at the option input. Then you have to enter the information of the book you wanna add. Be careful of the type of data you enter ! (refer to [this section](#description) for more information). After you have entered the book's information, you should have a message saying "*Book added !*".
 If you have entered a book that is already in the database, the message displayed on the output is "*The book is already in the database !*". <br>
 If you want to check if the book is really added, when the menu shows again enter the letter **F**.
 
